@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Eureka Client/Eureka Client.iml" filepath="$PROJECT_DIR$/Eureka Client/Eureka Client.iml" />
       <module fileurl="file://$PROJECT_DIR$/Eureka Server/Eureka Server.iml" filepath="$PROJECT_DIR$/Eureka Server/Eureka Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gallery Service/Gallery Service.iml" filepath="$PROJECT_DIR$/Gallery Service/Gallery Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gateway Zuul/Gateway Zuul.iml" filepath="$PROJECT_DIR$/Gateway Zuul/Gateway Zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/api-gateway.iml" filepath="$PROJECT_DIR$/.idea/api-gateway.iml" />
     </modules>
   </component>
