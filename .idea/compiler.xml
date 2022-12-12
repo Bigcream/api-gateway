@@ -7,25 +7,37 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="EurekaServer" />
+        <module name="GalleryService" />
         <module name="Gallery Service" />
+        <module name="Eureka Server" />
+        <module name="EurekaClient" />
         <module name="Eureka Client" />
         <module name="Gateway Zuul" />
-        <module name="Eureka Server" />
+        <module name="GatewayZuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Eureka Client" target="1.8" />
       <module name="Eureka Server" target="1.8" />
+      <module name="EurekaClient" target="1.8" />
+      <module name="EurekaServer" target="1.8" />
       <module name="Gallery Service" target="1.8" />
+      <module name="GalleryService" target="1.8" />
       <module name="Gateway Zuul" target="1.8" />
+      <module name="GatewayZuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Eureka Client" options="-parameters" />
       <module name="Eureka Server" options="-parameters" />
+      <module name="EurekaClient" options="-parameters" />
+      <module name="EurekaServer" options="-parameters" />
       <module name="Gallery Service" options="-parameters" />
+      <module name="GalleryService" options="-parameters" />
       <module name="Gateway Zuul" options="-parameters" />
+      <module name="GatewayZuul" options="-parameters" />
     </option>
   </component>
 </project>
